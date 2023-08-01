@@ -26,6 +26,8 @@
             <!-- progress-bar end -->
             <!-- header -->
             <header class="main-header">
+                <div id="google_translate_element" class="loading-container" data-loading-container>
+                    <div class="loading-circle"></div>
                 <!-- top bar -->
                 <div class="top-bar fl-wrap">
                     <div class="container">
@@ -1375,5 +1377,11 @@
     })();
     </script>
     <!--End of Tawk.to Script-->
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+   <script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+}
+</script>
     </body>
 </html>
