@@ -321,8 +321,9 @@ blockquote:before {
 	top:20px;
 }
 .logo-holder img {
-	width: auto;
-	height:100%;
+	width: 140%;
+	height:180%;
+	margin-top: -14%;
 }
 .show-cart , .srf_btn , .search_btn {
 	float:right;
